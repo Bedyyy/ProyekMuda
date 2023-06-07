@@ -1,9 +1,6 @@
 # ProyekMuda
 Proyek RPL Kelompok 5
 
-# ProyekMuda
-Proyek RPL Kelompok 5
-
 ## Laravel Setup
 -  cd project
 
