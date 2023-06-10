@@ -1,0 +1,29 @@
+.section {
+    padding: 2rem 0;
+}
+
+.background {
+    background: radial-gradient(
+        57.36% 71.51% at 78.33% 52.47%,
+        #fa8c5c 0%,
+        #bb4a1a 100%
+    );
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.bg-freelance{
+    background: radial-gradient(53.82% 449.99% at 74.97% 46.08%, #20CA42 0%, #00981F 100%);
+}
+
+.font-primary {
+    font-family: "Rowdies", cursive;
+}
+
+.font-secondary {
+    font-family: "Poppins", sans-serif;
+}
+
+.color-primary {
+    color: #fb763d;
+}

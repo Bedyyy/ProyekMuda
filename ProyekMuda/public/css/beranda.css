@@ -1,0 +1,84 @@
+.logo {
+    width: 2rem;
+}
+
+
+.poster {
+    height: 90%;
+}
+
+.design-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.design-backdrop-left {
+    position: absolute;
+    top: -10%;
+    right: 0;
+}
+
+.design-backdrop-right {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.benefit-desc {
+    font-size: 16px;
+}
+
+.card-img-top {
+    object-fit: cover;
+    width: 18rem;
+    height: 10rem;
+    object-position: top;
+}
+
+.btn-gabung {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) !important;
+}
+
+.testi-1 {
+    bottom: -20%;
+    left: 0;
+}
+
+.testi-2 {
+    top: -25%;
+    left: 2%;
+}
+
+.testi-3 {
+    bottom: 30%;
+    right: -5%;
+}
+
+.join-left {
+    top: -40%;
+    left: -10%;
+}
+
+.join-right {
+    bottom: -40%;
+    right: 0;
+}
+
+.container-cta {
+    padding: 9rem 9rem;
+}
+
+.freelancer-cta {
+    right: 15%;
+}
+
+.text-freelancer-cta {
+    right: 8%;
+    bottom: 20%;
+}
+
+.footer {
+    border-top: 4px solid #d9d9d9;
+    color: #b7b7b7;
+}
