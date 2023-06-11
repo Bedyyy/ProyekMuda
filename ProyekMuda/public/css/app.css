@@ -12,6 +12,12 @@
     background-size: auto;
 }
 
+.background-primary{
+    background: linear-gradient(180deg, #FF814C 0%, #C35B2F 100%);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
 .bg-freelance{
     background: radial-gradient(53.82% 449.99% at 74.97% 46.08%, #20CA42 0%, #00981F 100%);
 }
@@ -26,4 +32,8 @@
 
 .color-primary {
     color: #fb763d;
+}
+
+.w-75{
+    width: 75%;
 }

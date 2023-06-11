@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.border-left-none{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

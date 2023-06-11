@@ -1,73 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.main')
+@section('css', 'css/beranda.css')
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/beranda.css">
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-    <style>
-        .color-primary {
-            color: #FB763D;
-        }
-
-        .search-bar {
-            border: none;
-            height: 3.8rem !important;
-        }
-
-        .search-bar:focus {
-            outline: none !important;
-            border: none !important;
-        }
-
-        .submit-btn {
-            background: linear-gradient(180deg, #28e646 0%, #15ca5e 100%);
-            height: 3.3rem;
-            outline: none !important;
-        }
-    </style>
-</head>
-
-<body>
     <div class="background" id="hero">
         <img src="{{ URL::to('design/top-left-header.svg') }}" alt="" class="design-top">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent z-3">
-            <div class="container d-flex justify-content-between">
-                <div class="d-flex gap-3">
-                    <img src="{{ URL::to('icon/logo-proyekmuda.svg') }}" alt="" class="logo">
-                    <a class="navbar-brand font-primary fw-bold fs-3" href="#">ProyekMuda</a>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 grid gap-lg-4 gap font-secondary fw-bold">
-                        <li class="nav-item">
-                            <a class="nav-link fw-bold" aria-current="page" href="#">Beranda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Cari Proyek</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">FAQ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Sign In</a>
-                        </li>
-                        <li class="nav-item bg-white rounded-5 px-4">
-                            <a class="nav-link color-primary" href="#" tabindex="-1"
-                                aria-disabled="true">Join</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        @include('partials.navbarGuest')
         <div class="container section" id="header">
             <div class="row">
                 <div class="col-lg-8 col-12 my-auto text-white">
@@ -291,31 +227,5 @@
             </div>
         </div>
     </div>
-    <div class="footer mt-5" id="footer">
-        <div class="container">
-            <div class="row my-4 d-flex flex-col justify-content-between">
-                <div class="col-6">
-                    <div class="d-flex gap-3">
-                        <img src="{{ URL::to('icon/logo-proyekmuda-footer.svg') }}" alt="Logo ProyekMuda"
-                            class="logo">
-                        <p class="m-0 p-0 font-primary fw-bold fs-3">ProyekMuda</p>
-                    </div>
-                </div>
-                <div class="col-6 ">
-                    <div class="d-flex gap-4 d-flex justify-content-end">
-                        <a href="">
-                            <img src="{{ URL::to('icon/gmail-icon.svg') }}" alt="" class="logo">
-                        </a>
-                        <a href="">
-                            <img src="{{ URL::to('icon/instagram-icon.svg') }}" alt="" class="logo">
-                        </a>
-                        <p class="m-0 p-0 fs-5">Contact Us</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('partials.footer')
 
-</body>
-
-</html>
