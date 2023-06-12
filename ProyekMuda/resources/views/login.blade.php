@@ -43,7 +43,7 @@
                             <img src="{{ URL::to('design/divider.svg') }}" alt="" class="w-25 mb-3">
                         </div>
                         <div class="text-center">
-                            <a href="" class="color-primary fw-bold">Register Now</a><span class="text-muted"> to
+                            <a href="/register" class="color-primary fw-bold">Register Now</a><span class="text-muted"> to
                                 get your task done at affordable price</span>
                         </div>
                     </div>

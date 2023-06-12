@@ -13,7 +13,7 @@
                 </div>
                 <div class="col-8">
                     <h1 class="font-primary color-primary fw-bold text-center mt-3">Welcome to <br>ProyekMuda</h1>
-                    <p class="text-muted text-center">Already a member? <a href=""
+                    <p class="text-muted text-center">Already a member? <a href="/login"
                             class="color-primary fw-bold">Sign In here</a> </p>
                     <div class="container w-75">
                         <form action="">

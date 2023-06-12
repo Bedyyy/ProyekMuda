@@ -11,7 +11,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 grid gap-lg-4 gap font-secondary fw-bold">
                 <li class="nav-item">
-                    <a class="nav-link fw-bold" aria-current="page" href="#">Beranda</a>
+                    <a class="nav-link fw-bold" aria-current="page" href="/">Beranda</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Cari Proyek</a>
@@ -23,7 +23,7 @@
                     <a class="nav-link" href="/login" tabindex="-1" aria-disabled="true">Sign In</a>
                 </li>
                 <li class="nav-item bg-white rounded-5 px-4">
-                    <a class="nav-link color-primary" href="#" tabindex="-1" aria-disabled="true">Join</a>
+                    <a class="nav-link color-primary" href="/register" tabindex="-1" aria-disabled="true">Join</a>
                 </li>
             </ul>
         </div>
