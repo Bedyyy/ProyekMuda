@@ -8,6 +8,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="@yield('css')">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+
+
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     <style>
         .color-primary {
@@ -31,6 +36,13 @@
         }
     </style>
 </head>
+
 <body>
-    @yield('content')
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+     @yield('content')
+    <!-- JQuery -->
+
+    <!-- Slick JS -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 </body>
